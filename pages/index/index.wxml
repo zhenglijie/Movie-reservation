@@ -1,0 +1,20 @@
+<view class="backspace"></view>
+<view class="box1">
+    <view style="display: flex;align-items: center;">
+        <image mode="widthFix" src="/images/mine.png"></image>
+    </view>
+</view>
+<view class="backspace"></view>
+<input placeholder="请输入手机号" placeholder-class="placeholder" bindinput="NumberInput"></input>
+<input placeholder="请输入密码" type="password" placeholder-class="placeholder" bindinput="codeInput"></input>
+
+<view class="backspace"></view>
+<button style="width:120px"  class = "btn2" bindtap="login">点击登录</button>
+
+<view class="backspace"></view>
+<view class="backspace"></view>
+
+<view style="display: flex;align-items: center;">
+  <text class="downShow" decode="{{true}}" space="{{true}}">QQ登录 &ensp; | &ensp; 微信登陆&ensp; | &ensp;新用户注册</text>
+</view>
+

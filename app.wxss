@@ -1,0 +1,38 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.backSpace {
+  margin: 60px;
+}
+
+.box1 {
+  width: 60px;
+  height: 30px;
+  margin:0 auto;
+}
+
+.backspace {
+  width: 100px;
+  height: 40px;
+  margin:0 auto;
+}
+
+.boxNavigator {
+  font-family:‘Lucida Sans’, ‘Lucida Sans Regular’, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Geneva, Verdana, sans-serif;
+  color: #828282;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 5px;
+  border:1px solid silver;
+  padding: 20rpx;
+  margin: 20rpx;
+}
